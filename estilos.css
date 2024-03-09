@@ -84,6 +84,8 @@ h3{
 
 .row{
     width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 
 .iten{
@@ -106,6 +108,7 @@ h3{
 
 h5{
     font-size: 30px;
+    color: #fff;
 }
 h6{
     font-size: 25px;
@@ -230,3 +233,81 @@ Preguntas Frecuentes
     color: #a0a0a0;
     padding-left: 40px;
 } 
+
+/* 
+Reseñas
+ */
+
+.class{
+    color: yellow;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    padding: 50px;
+    grid-gap: 30px;
+    padding-top: 300px;
+}
+
+.rese1{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rese2{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rese3{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rese4{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rese5{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.rese6{
+    background-image: url(./images/reseña.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@media only screen and (min-width:576px){
+    .section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width:768px){
+    .section{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
