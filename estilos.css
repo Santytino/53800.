@@ -77,7 +77,7 @@ h3{
     font-family: Roboto Condensed;
     font-size: 30px;
     color: #fff;
-    padding-top: 300px;
+    padding-top: 200px;
     text-transform: uppercase;
     padding-left: 50px;
 }
@@ -238,6 +238,10 @@ Preguntas Frecuentes
 Reseñas
  */
 
+h2{
+    color: #fff;
+    font-size: 20px;
+}
 .class{
     color: yellow;
 }
@@ -310,4 +314,16 @@ Reseñas
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
+}
+
+/* 
+Nosotros
+ */
+
+
+p{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
