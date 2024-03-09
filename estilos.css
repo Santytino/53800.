@@ -247,14 +247,14 @@ Reseñas
     grid-template-rows: repeat(6, 1fr);
     padding: 50px;
     grid-gap: 30px;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .rese1{
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -262,7 +262,7 @@ Reseñas
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -270,7 +270,7 @@ Reseñas
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -278,7 +278,7 @@ Reseñas
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -286,7 +286,7 @@ Reseñas
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
@@ -294,7 +294,7 @@ Reseñas
     background-image: url(./images/reseña.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
 }
 
