@@ -40,6 +40,10 @@ Inicio
     min-height: 100vh;
 }
 
+h1{
+    color: #fff;
+    font-family: Roboto Condensed;
+}
 .call{
     padding-top: 500px;
     padding-left: 100px;
@@ -326,4 +330,79 @@ p{
     font-size: 20px;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+/* 
+Conectate
+ */
+
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.formulario h1{
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #fff;
+} 
+form .username{
+    position: relative;
+    border-bottom: 2px solid #fff;
+    margin: 30px 0;
+}
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+
+}
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #000;
+    transform: translateY(-50%);
+    font-size: 15px;
+    opacity: 0.3;
+} 
+.fotofondo{
+    background-image: url(./images/fondo1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.recordar a{
+    text-decoration: none;
+    color: blue;
+}
+.recordar a:hover{
+    text-decoration: underline;
+}
+.iniciar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+} 
+.iniciar{
+    text-align: center;
+    padding-top: 20px;
+}
+.foot{
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    bottom: 0;
 }
